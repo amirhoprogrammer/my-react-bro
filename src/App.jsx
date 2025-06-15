@@ -9,7 +9,22 @@ import Button1 from "./Button/Button1.jsx";
 //import Button2 from "./Button2.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
+import List from "./List.jsx";
 function App() {
+  const fruits = [
+    { id: 1, name: "apple", calories: 95 },
+    { id: 2, name: "orange", calories: 45 },
+    { id: 3, name: "banana", calories: 105 },
+    { id: 4, name: "coconut", calories: 159 },
+    { id: 5, name: "pineapple", calories: 37 },
+  ];
+  const vegtables = [
+    { id: 6, name: "potato", calories: 110 },
+    { id: 7, name: "celery", calories: 15 },
+    { id: 8, name: "carrots", calories: 25 },
+    { id: 9, name: "corn", calories: 63 },
+    { id: 10, name: "broccoli", calories: 50 },
+  ];
   return (
     <>
       <Header />
@@ -22,6 +37,10 @@ function App() {
       <Student name="Ali" age={34} isStudent={true} />
       <UserGreeting IsLoggedIn={true} username="AmirHossein" />
       <UserGreeting IsLoggedIn={false} username="AmirHessam" />
+      {/*<List items={fruits} category="Fruits" />*/}
+      {/*<List items={vegtables} category="Vegtables" />*/}
+      {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+      {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}

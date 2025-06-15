@@ -15,8 +15,11 @@ function Button2() {
     margin: "10px 10px",
   };
   return (
-    <button type="Button" style={style2}>
+    /*<button type="Button" style={style2}>
       click here!
+    </button>*/
+    <button onClick={cli} style={style2}>
+      click me
     </button>
   );
 }
