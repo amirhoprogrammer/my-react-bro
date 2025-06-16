@@ -6,10 +6,11 @@ import Footer from "./Footer.jsx";
 //import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button1 from "./Button/Button1.jsx";
-//import Button2 from "./Button2.jsx";
+import Button2 from "./Button2.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import MyComponent from "./MyComponent.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -33,7 +34,7 @@ function App() {
       <Card />
       <Card />
       <Button1 />
-      {/* <Button2 />*/}
+      {/* */}
       <Student name="Ali" age={34} isStudent={true} />
       <UserGreeting IsLoggedIn={true} username="AmirHossein" />
       <UserGreeting IsLoggedIn={false} username="AmirHessam" />
@@ -41,8 +42,10 @@ function App() {
       {/*<List items={vegtables} category="Vegtables" />*/}
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
+      <MyComponent />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
+      <Button2 />
       {/**/}
       <Footer />
     </>

@@ -14,11 +14,27 @@ function Button2() {
     display: "flex",
     margin: "10px 10px",
   };
+  //let count = 0;
+  //const handleClick = () => console.log("Ouch!");
+  //const handleClick2 = (name) => console.log(`${name} stop clicking me`);
+  /*const handleClick2 = (name) => {
+    if (count < 3) {
+      count++;
+      console.log(`${name} you clicked me ${count} time/s`);
+    } else {
+      console.log(`${name} stop clicking me `);
+    }
+  };*/
+  const handleClick2 = (e) => (e.target.textContent = "yes");
+  //console.log(e);
   return (
     /*<button type="Button" style={style2}>
       click here!
+    </button>
+    <button onClick={handleClick} style={style2}>
+      click me
     </button>*/
-    <button onClick={cli} style={style2}>
+    <button onClick={(e) => handleClick2(e)} style={style2}>
       click me
     </button>
   );
