@@ -11,6 +11,7 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -42,10 +43,11 @@ function App() {
       {/*<List items={vegtables} category="Vegtables" />*/}
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
+      <Button2 />
       <MyComponent />
+      <Counter />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
-      <Button2 />
       {/**/}
       <Footer />
     </>
