@@ -35,10 +35,9 @@ function App() {
       <Card />
       <Card />
       <Button1 />
-      {/* */}
       <Student name="Ali" age={34} isStudent={true} />
-      <UserGreeting IsLoggedIn={true} username="AmirHossein" />
-      <UserGreeting IsLoggedIn={false} username="AmirHessam" />
+      {/*<UserGreeting IsLoggedIn={true} username="AmirHossein" />
+      <UserGreeting IsLoggedIn={false} username="AmirHessam" /> */}
       {/*<List items={fruits} category="Fruits" />*/}
       {/*<List items={vegtables} category="Vegtables" />*/}
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}

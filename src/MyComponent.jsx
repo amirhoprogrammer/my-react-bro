@@ -21,9 +21,9 @@ function MyComponent() {
       <p>Name: {name}</p>
       <button onClick={updateName}>Set Name:</button>
       <p>Age: {age}</p>
-      <button onClick={updateAge}>Set Age:</button>
+      <button onClick={updateAge}>increment Age:</button>
       <p>Is employed: {isEmployed ? "Yes" : "No"}</p>
-      <button onClick={toggleEmployeStatus}>Set Age:</button>
+      <button onClick={toggleEmployeStatus}>Toggle Status:</button>
     </div>
   );
 }
