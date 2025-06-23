@@ -11,7 +11,8 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
-import Counter from "./Counter";
+import Counter from "./Counter.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -45,6 +46,7 @@ function App() {
       <Button2 />
       <MyComponent />
       <Counter />
+      <ColorPicker />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}
