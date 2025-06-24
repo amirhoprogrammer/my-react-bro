@@ -13,6 +13,7 @@ import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import MyComponents from "./MyComponents.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -47,6 +48,7 @@ function App() {
       <MyComponent />
       <Counter />
       <ColorPicker />
+      <MyComponents />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}
