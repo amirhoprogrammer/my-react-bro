@@ -8,12 +8,13 @@ import Card from "./Card.jsx";
 import Button1 from "./Button/Button1.jsx";
 import Button2 from "./Button2.jsx";
 import Student from "./Student.jsx";
-import UserGreeting from "./UserGreeting.jsx";
+//import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import MyComponents from "./MyComponents.jsx";
+import MyComponentObject from "./MyComponentObject.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -49,6 +50,7 @@ function App() {
       <Counter />
       <ColorPicker />
       <MyComponents />
+      <MyComponentObject />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}
