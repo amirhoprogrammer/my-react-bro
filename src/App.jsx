@@ -16,6 +16,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import MyComponents from "./MyComponents.jsx";
 import MyComponentObject from "./MyComponentObject.jsx";
 import MyComponentArray from "./MyComponentArray.jsx";
+import MyComponentArrayObject from "./MyComponentArrayObject.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -53,6 +54,7 @@ function App() {
       <MyComponents />
       <MyComponentObject />
       <MyComponentArray />
+      <MyComponentArrayObject />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}
