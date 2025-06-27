@@ -6,7 +6,7 @@ function MyComponentArray() {
     const newFood = document.getElementById("foodInput").value;
     document.getElementById("foodInput").value = "";
     //setFoods([newFood]);
-    setFoods([...foods, newFood]);
+    setFoods((f) => [...f, newFood]);
     //setFoods(f =>[...f, newFood]);
   }
   function handleRemoveFood(index) {
