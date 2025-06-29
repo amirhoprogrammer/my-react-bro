@@ -17,6 +17,7 @@ import MyComponents from "./MyComponents.jsx";
 import MyComponentObject from "./MyComponentObject.jsx";
 import MyComponentArray from "./MyComponentArray.jsx";
 import MyComponentArrayObject from "./MyComponentArrayObject.jsx";
+import ToDoList from "./ToDoList.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -55,6 +56,7 @@ function App() {
       <MyComponentObject />
       <MyComponentArray />
       <MyComponentArrayObject />
+      <ToDoList />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}
