@@ -17,6 +17,7 @@ import MyComponents from "./MyComponents.jsx";
 import MyComponentObject from "./MyComponentObject.jsx";
 import MyComponentArray from "./MyComponentArray.jsx";
 import MyComponentArrayObject from "./MyComponentArrayObject.jsx";
+import UseEffect from "./UseEffect.jsx";
 import ToDoList from "./ToDoList.jsx";
 function App() {
   const fruits = [
@@ -57,6 +58,7 @@ function App() {
       <MyComponentArray />
       <MyComponentArrayObject />
       <ToDoList />
+      <UseEffect />
       {/*<Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       {/**/}
