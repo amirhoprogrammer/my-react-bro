@@ -1,14 +1,14 @@
 //import { useState } from "react";
 //import "./App.css";
 import "./index.css";
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-//import Food from "./Food.jsx";
+//import Header from "./Header.jsx";
+//import Footer from "./Footer.jsx";
+import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button1 from "./Button/Button1.jsx";
 import Button2 from "./Button2.jsx";
 import Student from "./Student.jsx";
-//import UserGreeting from "./UserGreeting.jsx";
+import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
@@ -19,6 +19,8 @@ import MyComponentArray from "./MyComponentArray.jsx";
 import MyComponentArrayObject from "./MyComponentArrayObject.jsx";
 import UseEffect from "./UseEffect.jsx";
 import ToDoList from "./ToDoList.jsx";
+import { Link, Navigate, Route, Routes } from "react-router-dom";
+import Home from "./Home.jsx";
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -36,17 +38,15 @@ function App() {
   ];
   return (
     <>
-      <Header />
-      {/*<Food /> <hr />*/}
+      {/*
       <Card />
       <Card />
       <Card />
-      <Button1 />
       <Student name="Ali" age={34} isStudent={true} />
-      {/*<UserGreeting IsLoggedIn={true} username="AmirHossein" />
-      <UserGreeting IsLoggedIn={false} username="AmirHessam" /> */}
-      {/*<List items={fruits} category="Fruits" />*/}
-      {/*<List items={vegtables} category="Vegtables" />*/}
+      <UserGreeting IsLoggedIn={true} username="AmirHossein" />
+      <UserGreeting IsLoggedIn={false} username="AmirHessam" /> 
+      <List items={fruits} category="Fruits" />}
+      <List items={vegtables} category="Vegtables" />
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
       <Button2 />
@@ -59,10 +59,23 @@ function App() {
       <MyComponentArrayObject />
       <ToDoList />
       <UseEffect />
-      {/*<Student name="Ali" age="ghi" isStudent={true} />
+      <Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
-      {/**/}
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/card" element={<Card />} />
+        <Route path="/button1" element={<Button1 />} />
+        <Route path="/student" element={<Student />} />
+        <Route path="/usergreeting" element={<UserGreeting />} />
+        <Route path="/list" element={<List />} />
+        <Route path="/button2" element={<Button2 />} />
+        {/*<Route path="/P"*/}
+        <Route path="/mycomponent" element={<MyComponent />} />
+        <Route path="/mycomponents" element={<MyComponents />} />
+        <Route path="/mycomponentobject" element={<MyComponentObject />} />
+        <Route path="/mycomponentarray" element={<MyComponentArray />} />
+      </Routes>
     </>
   );
 }
