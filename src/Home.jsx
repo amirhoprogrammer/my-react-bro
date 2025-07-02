@@ -30,25 +30,25 @@ function Home() {
       <Link to="/mycomponent">lesson7</Link>
       <hr />
       <p>Lesson8</p>
-      <Link to="/mycomponent">lesson8</Link>
+      <Link to="/counter">lesson8</Link>
       <hr />
       <p>Lesson9</p>
-      <Link to="mycomponents">lesson9</Link>
+      <Link to="/mycomponents">lesson9</Link>
       <hr />
       <p>Lesson10</p>
-      <Link to="mycomponentobject">lesson10</Link>
+      <Link to="/colorpicker">lesson10</Link>
       <hr />
       <p>Lesson11</p>
-      <Link to="mycomponentarray">lesson11</Link>
+      <Link to="/mycomponentobject">lesson11</Link>
       <hr />
       <p>Lesson12</p>
-      <Link to="#">lesson12</Link>
+      <Link to="/mycomponentarray">lesson12</Link>
       <hr />
       <p>Lesson13</p>
-      <Link to="#">lesson13</Link>
+      <Link to="/mycomponentarrayonject">lesson13</Link>
       <hr />
       <p>Lesson14</p>
-      <Link to="#">lesson14</Link>
+      <Link to="/todolist">lesson14</Link>
       <hr />
       <p>Lesson15</p>
       <Link to="#">lesson15</Link>

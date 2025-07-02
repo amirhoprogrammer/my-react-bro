@@ -49,16 +49,6 @@ function App() {
       <List items={vegtables} category="Vegtables" />
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
-      <Button2 />
-      <MyComponent />
-      <Counter />
-      <ColorPicker />
-      <MyComponents />
-      <MyComponentObject />
-      <MyComponentArray />
-      <MyComponentArrayObject />
-      <ToDoList />
-      <UseEffect />
       <Student name="Ali" age="ghi" isStudent={true} />
       <Student />*/}
       <Routes>
@@ -75,6 +65,11 @@ function App() {
         <Route path="/mycomponents" element={<MyComponents />} />
         <Route path="/mycomponentobject" element={<MyComponentObject />} />
         <Route path="/mycomponentarray" element={<MyComponentArray />} />
+        <Route path="/mycomponentarrayonject" element={<MyComponentArrayObject />} />
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/todolist" element={<ToDoList />} />
+        <Route path="/colorpicker" element={<ColorPicker />} />
+        <Route path="/useeffect" element={<UseEffect />} />
       </Routes>
     </>
   );
