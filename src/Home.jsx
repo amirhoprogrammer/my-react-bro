@@ -24,7 +24,8 @@ function Home() {
       <hr />
       <p>Lesson6</p>
       <Link to="/button2">lesson6 part1</Link>
-      <Link to="/button2">lesson6 part2</Link>
+      <br />
+      <Link to="/profilepicker">lesson6 part2</Link>
       <hr />
       <p>Lesson7</p>
       <Link to="/mycomponent">lesson7</Link>
