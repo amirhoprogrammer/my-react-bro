@@ -5,7 +5,6 @@ import Food from "./Food.jsx";
 import Button1 from "./Button/Button1.jsx";
 import Button2 from "./Button2.jsx";
 import Students from "./Students/Students.jsx";
-import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
@@ -18,6 +17,7 @@ import UseEffect from "./UseEffect.jsx";
 import ToDoList from "./ToDoList.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
 import Cards from "./Cards/Cards.jsx";
+import UserGreetings from "./UserGreeting/UserGreetings.jsx";
 import { Link, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 function App() {
@@ -38,8 +38,6 @@ function App() {
   return (
     <>
       {/*
-      <UserGreeting IsLoggedIn={true} username="AmirHossein" />
-      <UserGreeting IsLoggedIn={false} username="AmirHessam" /> 
       <List items={fruits} category="Fruits" />}
       <List items={vegtables} category="Vegtables" />
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
@@ -50,7 +48,7 @@ function App() {
         <Route path="/cards" element={<Cards />} />
         <Route path="/button1" element={<Button1 />} />
         <Route path="/students" element={<Students />} />
-        <Route path="/usergreeting" element={<UserGreeting />} />
+        <Route path="/usergreetings" element={<UserGreetings />} />
         <Route path="/list" element={<List />} />
         <Route path="/button2" element={<Button2 />} />
         <Route path="/profilepicker" element={<ProfilePicture />} />
