@@ -2,7 +2,7 @@
 //import "./App.css";
 import "./index.css";
 import Food from "./Food.jsx";
-import Card from "./Card.jsx";
+import Card from "./Cards/Card.jsx";
 import Button1 from "./Button/Button1.jsx";
 import Button2 from "./Button2.jsx";
 import Student from "./Student.jsx";
@@ -18,6 +18,7 @@ import MyComponentArrayObject from "./MyComponentArrayObject.jsx";
 import UseEffect from "./UseEffect.jsx";
 import ToDoList from "./ToDoList.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
+import Cards from "./Cards/Cards.jsx";
 import { Link, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 function App() {
@@ -38,9 +39,6 @@ function App() {
   return (
     <>
       {/*
-      <Card />
-      <Card />
-      <Card />
       <Student name="Ali" age={34} isStudent={true} />
       <UserGreeting IsLoggedIn={true} username="AmirHossein" />
       <UserGreeting IsLoggedIn={false} username="AmirHessam" /> 
@@ -53,7 +51,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/food" element={<Food />} />
-        <Route path="/card" element={<Card />} />
+        <Route path="/card" element={<Cards />} />
         <Route path="/button1" element={<Button1 />} />
         <Route path="/student" element={<Student />} />
         <Route path="/usergreeting" element={<UserGreeting />} />
