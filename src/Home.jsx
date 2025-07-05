@@ -11,7 +11,7 @@ function Home() {
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/food">
           lesson1 part1
         </Link>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/card">
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/cards">
           lesson1 part2
         </Link>
       </div>
@@ -23,7 +23,7 @@ function Home() {
       </div>
       <div className="lesson1">
         <p>Lesson3</p>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/student">
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/students">
           lesson3
         </Link>
       </div>

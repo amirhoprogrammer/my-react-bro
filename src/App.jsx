@@ -2,10 +2,9 @@
 //import "./App.css";
 import "./index.css";
 import Food from "./Food.jsx";
-import Card from "./Cards/Card.jsx";
 import Button1 from "./Button/Button1.jsx";
 import Button2 from "./Button2.jsx";
-import Student from "./Student.jsx";
+import Students from "./Students/Students.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
@@ -39,21 +38,18 @@ function App() {
   return (
     <>
       {/*
-      <Student name="Ali" age={34} isStudent={true} />
       <UserGreeting IsLoggedIn={true} username="AmirHossein" />
       <UserGreeting IsLoggedIn={false} username="AmirHessam" /> 
       <List items={fruits} category="Fruits" />}
       <List items={vegtables} category="Vegtables" />
       {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
-      {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
-      <Student name="Ali" age="ghi" isStudent={true} />
-      <Student />*/}
+      {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}*/}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/food" element={<Food />} />
-        <Route path="/card" element={<Cards />} />
+        <Route path="/cards" element={<Cards />} />
         <Route path="/button1" element={<Button1 />} />
-        <Route path="/student" element={<Student />} />
+        <Route path="/students" element={<Students />} />
         <Route path="/usergreeting" element={<UserGreeting />} />
         <Route path="/list" element={<List />} />
         <Route path="/button2" element={<Button2 />} />
