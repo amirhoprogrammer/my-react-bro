@@ -64,7 +64,7 @@ function App() {
         <Route path="/mycomponents" element={<MyComponents />} />
         <Route path="/mycomponentobject" element={<MyComponentObject />} />
         <Route path="/mycomponentarray" element={<MyComponentArray />} />
-        <Route path="/mycomponentarrayonject" element={<MyComponentArrayObject />} />
+        <Route path="/mycomponentarrayobject" element={<MyComponentArrayObject />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/todolist" element={<ToDoList />} />
         <Route path="/colorpicker" element={<ColorPicker />} />

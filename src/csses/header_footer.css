@@ -1,0 +1,30 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header nav ul li {
+  padding: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(20, 143, 7);
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(135, 0, 25);
+}
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}

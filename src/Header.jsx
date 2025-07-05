@@ -1,3 +1,4 @@
+import "./csses/header_footer.css";
 function Header() {
   return (
     <header>
@@ -5,19 +6,18 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#">Project1</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">Project2</a>
           </li>
         </ul>
-        <hr />
       </nav>
     </header>
   );
