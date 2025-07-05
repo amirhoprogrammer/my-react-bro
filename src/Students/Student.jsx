@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
-
+import "./student.css";
 function Student(props) {
   return (
-    <div>
+    <div className="students">
       <p>Name: {props.name}</p>
       <p>Age: {props.age}</p>
       <p>Student: {props.isStudent ? "yes" : "no"}</p>

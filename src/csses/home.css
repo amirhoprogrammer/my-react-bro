@@ -4,6 +4,11 @@
   margin: 10px 0 0 0;
   padding: 10px 0 10px 10px;
   background-color: aliceblue;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .lesson1 p {
   margin: 0;
