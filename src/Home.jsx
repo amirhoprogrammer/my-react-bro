@@ -35,7 +35,7 @@ function Home() {
       </div>
       <div className="lesson1">
         <p>Lesson5</p>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/list">
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/lists">
           lesson5
         </Link>
       </div>
