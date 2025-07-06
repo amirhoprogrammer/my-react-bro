@@ -1,4 +1,5 @@
 import List from "./List.jsx";
+import "./list.css";
 function Lists() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -16,10 +17,18 @@ function Lists() {
   ];
   return (
     <>
-      <List items={fruits} category="Fruits" />
-      <List items={vegtables} category="Vegtables" />
-      {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
-      {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
+      <div className="list">
+        <List items={fruits} category="Fruits" />
+      </div>
+      <div className="list">
+        <List items={vegtables} category="Vegtables" />
+      </div>
+      <div className="list">
+        {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+      </div>
+      <div className="list">
+        {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
+      </div>
     </>
   );
 }
