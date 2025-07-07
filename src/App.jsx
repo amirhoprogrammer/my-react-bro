@@ -20,7 +20,7 @@ import UserGreetings from "./UserGreeting/UserGreetings.jsx";
 import Lists from "./Lists/Lists.jsx";
 import { Link, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
-import DigitalClock from "./DigitalClock.jsx";
+import DigitalClock from "./Project1/DigitalClock.jsx";
 function App() {
   return (
     <Routes>
