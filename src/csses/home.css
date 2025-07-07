@@ -1,3 +1,6 @@
+body {
+  background: none;
+}
 .lesson1 {
   display: grid;
   border: 2px solid antiquewhite;

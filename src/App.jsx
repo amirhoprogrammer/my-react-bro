@@ -21,6 +21,7 @@ import Lists from "./Lists/Lists.jsx";
 import { Link, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 import DigitalClock from "./Project1/DigitalClock.jsx";
+import OnChange from "./OnChange.jsx";
 function App() {
   return (
     <Routes>
@@ -43,6 +44,7 @@ function App() {
       <Route path="/colorpicker" element={<ColorPicker />} />
       <Route path="/useeffect" element={<UseEffect />} />
       <Route path="/project1" element={<DigitalClock />} />
+      <Route path="/onchange" element={<OnChange />} />
     </Routes>
   );
 }

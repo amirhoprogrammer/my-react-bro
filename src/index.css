@@ -66,8 +66,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }*/
-.body {
+body {
   font-family: Arial, sans-serif;
+  background: none;
 }
 /*Card.jsx */
 .Card {

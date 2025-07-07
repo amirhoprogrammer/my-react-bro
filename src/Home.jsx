@@ -7,40 +7,43 @@ function Home() {
     <>
       <Header />
       <div className="lesson1">
-        <p>Lesson1</p>
+        <p>Lesson0: basic list</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/food">
-          lesson1 part1
-        </Link>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/cards">
-          lesson1 part2
+          lesson0
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson2</p>
+        <p>Lesson1: Card component</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/cards">
+          lesson1
+        </Link>
+      </div>
+      <div className="lesson1">
+        <p>Lesson2: button component</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/button1">
           lesson2
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson3</p>
+        <p>Lesson3: props</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/students">
           lesson3
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson4</p>
+        <p>Lesson4: conditional renedering</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/usergreetings">
           lesson4
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson5</p>
+        <p>Lesson5: rendering list</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/lists">
           lesson5
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson6</p>
+        <p>Lesson6: click event</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/button2">
           lesson6 part1
         </Link>
@@ -49,43 +52,49 @@ function Home() {
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson7</p>
+        <p>Lesson7: Use State Hook(part1)</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/mycomponent">
           lesson7
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson8</p>
+        <p>Lesson8: Use State Hook(part2)</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/counter">
           lesson8
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson9</p>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/mycomponents">
+        <p>Lesson8: onchange event handler</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/onchange">
+          lesson8
+        </Link>
+      </div>
+      <div className="lesson1">
+        <p>Lesson9: color picker</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/colorpicker">
           lesson9
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson10</p>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/colorpicker">
+        <p>Lesson10: updater function</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/mycomponents">
           lesson10
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson11</p>
+        <p>Lesson11: update object in state</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/mycomponentobject">
           lesson11
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson12</p>
+        <p>Lesson12: update array in state</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/mycomponentarray">
           lesson12
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson13</p>
+        <p>Lesson13: update array of object in state</p>
         <Link
           style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }}
           to="/mycomponentarrayobject"
@@ -94,13 +103,13 @@ function Home() {
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson14</p>
+        <p>Lesson14: Use Effect()</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/todolist">
           lesson14
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson15</p>
+        <p>Lesson15: Use context()</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="#">
           lesson15
         </Link>
