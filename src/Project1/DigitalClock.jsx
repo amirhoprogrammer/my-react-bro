@@ -22,9 +22,11 @@ function DigitalClock() {
     return (number < 10 ? "0" : "") + number;
   }
   return (
-    <div className="clock_container">
-      <div className="clock">
-        <span>{formatTime()}</span>
+    <div className="body">
+      <div className="clock_container">
+        <div className="clock">
+          <span>{formatTime()}</span>
+        </div>
       </div>
     </div>
   );

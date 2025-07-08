@@ -1,3 +1,4 @@
+import "./list.css";
 function List(props) {
   //const fruits = ["apple", "orange", "banana", "coconut", "pineapple"];
   /*const fruits = [

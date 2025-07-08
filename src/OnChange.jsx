@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./index.css";
 function OnChange() {
   const [name1, setName1] = useState("ali");
   const [quantity, setQuantity] = useState(1);
@@ -21,7 +22,7 @@ function OnChange() {
     setShipping(event.target.value);
   }
   return (
-    <div>
+    <div className="onChange">
       <input type="text" value={name1} onChange={handleNameChange} />
       <p>Name: {name1}</p>
       <input type="number" value={quantity} onChange={handleQuantityChange} />

@@ -16,7 +16,7 @@ function MyComponent() {
     setIsEmployed(!isEmployed);
   };
   return (
-    <div>
+    <div className="myComponent">
       <p>Name: {name}</p>
       <button onClick={updateName}>Set Name:</button>
       <p>Age: {age}</p>

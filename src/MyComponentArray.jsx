@@ -1,5 +1,6 @@
 import { element } from "prop-types";
 import React, { useState } from "react";
+import "./index.css"
 function MyComponentArray() {
   const [foods, setFoods] = useState(["Apple", "Orange", "Banana"]);
   function handleAddFood() {
@@ -13,7 +14,7 @@ function MyComponentArray() {
     setFoods(foods.filter((_, i) => i !== index));
   }
   return (
-    <div>
+    <div className="mycomponentarray">
       <h2>List of Food(add)</h2>
       <ul>
         {foods.map((food, index) => (

@@ -1,5 +1,6 @@
 import { element } from "prop-types";
 import React, { useState } from "react";
+import "./index.css";
 function MyComponentArrayObject() {
   const [cars, setCars] = useState([]);
   const [carYear, setCarYear] = useState(new Date().getFullYear());
@@ -25,7 +26,7 @@ function MyComponentArrayObject() {
     setCarModel(event.target.value);
   }
   return (
-    <div>
+    <div className="mycomponentarrayobject">
       <h2>List of Car objects</h2>
       <ul>
         {cars.map((car, index) => (

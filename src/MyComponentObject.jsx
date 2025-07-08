@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./index.css";
 function MyComponentObject() {
   const [car, setCar] = useState({ year: 2024, make: "Ford", model: "Mustang" });
   function handleYearchange(event) {
@@ -13,9 +14,9 @@ function MyComponentObject() {
     setCar((c) => ({ ...c, model: event.target.value }));
   }
   return (
-    <div>
+    <div className="mycomponentobject">
       <p>
-        Your favorite car is:{car.year} {car.make} {car.model}
+        Your favorite car is: {car.year} {car.make} {car.model}
       </p>
       <input type="number" value={car.year} onChange={handleYearchange} />
       <br />
