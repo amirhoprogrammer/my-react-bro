@@ -1,0 +1,13 @@
+.box {
+  border: 3px solid aliceblue;
+  padding: 25px;
+  margin: 10px;
+}
+.box h1 {
+  margin: 0;
+  padding: 0;
+}
+.box h2 {
+  margin: 0;
+  padding: 0;
+}

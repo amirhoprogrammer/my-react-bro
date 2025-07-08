@@ -22,6 +22,10 @@ import { Link, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 import DigitalClock from "./Project1/DigitalClock.jsx";
 import OnChange from "./OnChange.jsx";
+import ComponentA from "./Components/ComponentA.jsx";
+import ComponentB from "./Components/ComponentB.jsx";
+import ComponentC from "./Components/ComponentC.jsx";
+import ComponentD from "./Components/ComponentD.jsx";
 function App() {
   return (
     <Routes>
@@ -45,6 +49,10 @@ function App() {
       <Route path="/useeffect" element={<UseEffect />} />
       <Route path="/project1" element={<DigitalClock />} />
       <Route path="/onchange" element={<OnChange />} />
+      <Route path="/component1" element={<ComponentA />} />
+      <Route path="/component2" element={<ComponentB />} />
+      <Route path="/component3" element={<ComponentC />} />
+      <Route path="/component4" element={<ComponentD />} />
     </Routes>
   );
 }

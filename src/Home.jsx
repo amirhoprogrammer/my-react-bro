@@ -110,7 +110,7 @@ function Home() {
       </div>
       <div className="lesson1">
         <p>Lesson15: Use context()</p>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="#">
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/component1">
           lesson15
         </Link>
       </div>
