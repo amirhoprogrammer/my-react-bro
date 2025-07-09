@@ -9,7 +9,7 @@ function Header() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="https://github.com/amirhoprogrammer">About</a>
           </li>
           <li>
             <a href="/project1">Project1</a>

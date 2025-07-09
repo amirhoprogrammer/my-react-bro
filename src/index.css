@@ -315,3 +315,15 @@ body {
 .mycomponentarrayobject {
   margin: 10px;
 }
+/* UseRef*/
+.useref {
+  margin: 0;
+  padding: 10px;
+  display: grid;
+}
+.useref button {
+  width: 150px;
+}
+.useref input {
+  width: 150px;
+}

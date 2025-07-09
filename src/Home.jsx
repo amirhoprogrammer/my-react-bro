@@ -114,6 +114,12 @@ function Home() {
           lesson15
         </Link>
       </div>
+      <div className="lesson1">
+        <p>Lesson15: Use Ref()</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/useref">
+          lesson15
+        </Link>
+      </div>
       <Footer />
     </>
   );
