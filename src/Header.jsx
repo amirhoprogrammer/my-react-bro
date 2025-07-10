@@ -15,7 +15,7 @@ function Header() {
             <a href="/project1">Project1</a>
           </li>
           <li>
-            <a href="#">Project2</a>
+            <a href="/stopwatch">Project2</a>
           </li>
         </ul>
       </nav>

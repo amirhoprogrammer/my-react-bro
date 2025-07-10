@@ -27,6 +27,7 @@ import ComponentB from "./Components/ComponentB.jsx";
 import ComponentC from "./Components/ComponentC.jsx";
 import ComponentD from "./Components/ComponentD.jsx";
 import UseRef from "./UseRef.jsx";
+import StopWatch from "./Project2/StopWatch.jsx";
 function App() {
   return (
     <Routes>
@@ -55,6 +56,7 @@ function App() {
       <Route path="/component3" element={<ComponentC />} />
       <Route path="/component4" element={<ComponentD />} />
       <Route path="/useref" element={<UseRef />} />
+      <Route path="/stopwatch" element={<StopWatch />} />
     </Routes>
   );
 }
