@@ -18,7 +18,7 @@ import ProfilePicture from "./ProfilePicture.jsx";
 import Cards from "./Cards/Cards.jsx";
 import UserGreetings from "./UserGreeting/UserGreetings.jsx";
 import Lists from "./Lists/Lists.jsx";
-import { Link, Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./Home.jsx";
 import DigitalClock from "./Project1/DigitalClock.jsx";
 import OnChange from "./OnChange.jsx";
