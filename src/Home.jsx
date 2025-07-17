@@ -103,24 +103,27 @@ function Home() {
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson14: Use Effect()</p>
-        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/useeffect">
-          lesson14 part1
-        </Link>
+        <p>Lesson14: To-do-listapp()</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/todolist">
-          leeson14 part2
+          leson14
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson15: Use context()</p>
+        <p>Lesson15: Use Effect()</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/useeffect">
+          lesson15
+        </Link>
+      </div>
+      <div className="lesson1">
+        <p>Lesson16: Use context()</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/component1">
-          lesson15
+          lesson16
         </Link>
       </div>
       <div className="lesson1">
-        <p>Lesson15: Use Ref()</p>
+        <p>Lesson17: Use Ref()</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/useref">
-          lesson15
+          lesson17
         </Link>
       </div>
       <Footer />
