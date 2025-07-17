@@ -1,5 +1,6 @@
 import Picamir from "../assets/Picamir.png";
 import "../index.css";
+import "./card.css";
 function Card() {
   return (
     <div className="Card">
