@@ -1,7 +1,7 @@
 import { element } from "prop-types";
 import React, { useState } from "react";
 function ToDoList() {
-  const [tasks, setTasks] = useState(["Eat Breakfast", "Take a shower", "drive to work"]);
+  const [tasks, setTasks] = useState(["Eat Breakfast", "Take a shower", "Drive to work"]);
   const [newTasks, setNewTasks] = useState("");
   function handInputchange(event) {
     setNewTasks(event.target.value);
