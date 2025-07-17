@@ -105,7 +105,7 @@ function Home() {
       <div className="lesson1">
         <p>Lesson14: To-do-listapp()</p>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/todolist">
-          leson14
+          lesson14
         </Link>
       </div>
       <div className="lesson1">
