@@ -104,8 +104,11 @@ function Home() {
       </div>
       <div className="lesson1">
         <p>Lesson14: Use Effect()</p>
+        <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/useeffect">
+          lesson14 part1
+        </Link>
         <Link style={{ textDecoration: "none", color: "rgb(3, 193, 120)" }} to="/todolist">
-          lesson14
+          leeson14 part2
         </Link>
       </div>
       <div className="lesson1">
