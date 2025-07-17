@@ -37,14 +37,14 @@ function UseEffect() {
     setColor((c) => (c === "green" ? "red" : "green"));
   }
   return (
-    <>
+    <div style={{ margin: "10px 10px 10px 10px" }}>
       <p style={{ color: color }}>Count: {count}</p>
       <button onClick={addCount}>Add</button>
       <button onClick={subtractCount}>subtract</button>
       <button onClick={changeColor}>Change Color</button>
       <p>Window Width : {width}px</p>
       <p>Window Height : {height}px</p>
-    </>
+    </div>
   );
 }
 export default UseEffect;
