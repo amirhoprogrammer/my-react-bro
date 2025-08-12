@@ -27,7 +27,7 @@ function Lists() {
         {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
       </div>
       <div className="list">
-        {fruits.length > 0 && <List items={vegtables} category="Vegtables" />}
+        {vegtables.length > 0 && <List items={vegtables} category="Vegtables" />}
       </div>
     </>
   );
